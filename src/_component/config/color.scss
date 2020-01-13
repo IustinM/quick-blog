@@ -8,7 +8,7 @@
 //        'buttercup'
 //        'zest'
 //        'cascade'
-$theme: 'mountain-meadow';
+$theme: 'cascade';
 // Default theme
 $color-normal: #000;
 $color-dark: #000;
@@ -29,7 +29,7 @@ $color-dark: #000;
 }
 
 @if ($theme == 'pickled-bluewood') {
-  $color-normal: #0453a1;
+  $color-normal: #34495E;
   $color-dark: #2C3E50;
 }
 
@@ -56,10 +56,6 @@ $color-dark: #000;
 @if ($theme == 'cinnabar') {
   $color-normal: #e74c3c;
   $color-dark: #c0392b;
-}
-@if($theme == 'lunca'){
-    $color-normal: #3498db;
-    $color-dark: #0453a1;
 }
 
 $color-athens-gray: #e7e9ec;

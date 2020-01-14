@@ -2,11 +2,21 @@ extends _component/layout/base
 block config
     -
         var title='About Quick Blog'
-        var description='Quick Blog is one og the quickest and fastest toold for writing in the world'
+        var description='Quick Blog is one of the quickest and fastest told for writing in the world'
 block content
-    .welcome
-        h1=title
-        p.welcome__description=description
-        a.scroll-down(href="#continue") 
-            span click to continue reading or scroll down
-            span.continue-arrow
+    .content
+        h2 Features
+        ul
+            li You can achieve 100/100 Google Page speed insight score.
+            li Load and render on the client is blazing fast, most of the time it happens quicker than you can blink, for real!
+            li 
+                figure.image-container
+                    img.image(src="/_asset/image/blazing-fast-load.jpg")
+            li Quick Blog allows you to build HTML pages quickly and painless.
+            li It makes use of PUG (former JADE) template language to generate HTML and SASS (SCSS) to power up CSS.
+            li It is open source and it derives from 
+                a(href= "https://github.com/marianzburlea/pug-starter") Pug starter
+                | , enabling faster delivery of HTML &amp; CSS projects to a private server and/or automatic deployment of GitHub pages.
+            li JSON to HTML template. You can build a template that applies to multiple JSON files and generates HTML for each of them.
+        h2 Age
+        p Quick Blog was born in March 2017 out of the need to quickly prototype projects.

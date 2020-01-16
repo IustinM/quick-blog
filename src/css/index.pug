@@ -1,0 +1,13 @@
+
+extends ../_component/layout/base
+block config
+    -
+        var title='CSS introduction'
+        var description='Explore the CSS in new light'
+block content
+    .content
+        h1 Discover the power of awesome CSS3
+        .list-wrapper
+            each article in data.css
+                include ../_component/article/article
+                //-  pre=JSON.stringify(article,null,2)
